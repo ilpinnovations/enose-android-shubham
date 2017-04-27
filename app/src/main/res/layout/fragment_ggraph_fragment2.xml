@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tcs.enosenew.GraphFragment1"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutgraph1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Graph"
+        android:layout_marginTop="20dp"
+        android:id="@+id/graphtitle"
+        android:layout_gravity="center_horizontal" />
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:id="@+id/graph"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar2"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04" />
+
+</LinearLayout>

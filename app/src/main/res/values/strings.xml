@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Enose</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_graph_fragment">Hello Graph fragment</string>
+    <string name="hello_readings_fragment">Hello Readings fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_main_fragment">Hello Main fragment</string>
+    <string name="mainbtn">Main</string>
+    <string name="readingsbtn">Readings</string>
+    <string name="graphbtn">Graph</string>
+    <string name="start">Start</string>
+    <string name="get_readings">Get Readings</string>
+    <string name="title">Something 6</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appname">Smell Tester Enose</string>
+</resources>
